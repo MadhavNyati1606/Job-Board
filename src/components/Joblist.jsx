@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Loading from './Loading';
 import JobCard from './JobCard';
+import './Joblist.css';
 
 const Joblist = ({ jobid }) => {
     const [job, setJob] = useState([]);
@@ -30,7 +31,7 @@ const Joblist = ({ jobid }) => {
         return <Loading/>
     }
     return (
-        <div style={{marginLeft: '500px', marginTop: '30px'}}>
+        <div className='joblist'>
             <JobCard job={job}/>
             
         </div>

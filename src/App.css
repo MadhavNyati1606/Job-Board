@@ -1,13 +1,44 @@
 .app{
   height: 100vh;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  justify-content: center;
+  flex-direction: column; */
   background-color: #ECE3CE;
   overflow-y: auto;
+  
 }
 
-.app h1{
+.heading{
   color: orange;
   margin-top: 30px;
-  margin-left: 500px;
+  display: flex;
+  justify-content: center;
 }
+.heading-1{
+  width: 630px;
+}
+
+.heading h1{
+  display: flex;
+  justify-content: start;
+}
+@media screen and (max-width: 768px){
+  .heading h1{
+    margin-left: 22px;
+  }
+}
+
+.list{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+/* @media screen and (max-width: 768px){
+  .app{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    justify-content: center;
+  }
+} */

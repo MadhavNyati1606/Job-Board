@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.head{
+    display: flex;
+    width: 630px;
+    justify-content: start;
+}
+.head h1{
+    display: flex;
+    justify-content: start;
+}
+
+@media screen and (max-width: 768px){
+    .head{
+        margin-left: 22px;
+    }
+}

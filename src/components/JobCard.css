@@ -14,7 +14,7 @@
     margin-bottom: 20px;
     background-Color: #fff;
     border-radius: 5px;
-    width: 600px;
+    max-width: 600px;
     padding: 12px;
 }
 .info{
@@ -31,4 +31,17 @@
     background-color: orange;
     color: white;
     cursor: pointer;
+}
+@media screen and (max-width: 768px){
+    .card{
+        margin-bottom: 20px;
+    background-Color: #fff;
+    border-radius: 5px;
+    margin-left: 22px;
+    margin-right: 22px;
+    padding: 12px;
+    }
+    .button{
+        margin-left: 22px;
+    }
 }

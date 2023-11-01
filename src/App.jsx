@@ -19,8 +19,14 @@ function App() {
 
   return (
    <div className='app'>
+    <div className="heading">
+      <div className="heading-1">
     <h1>Hacker News Job Board</h1>
+      </div>
+    </div>
+    <div className="list">
     <Joblist jobid = {jobid}/>
+    </div>
     </div>
   )
 }
