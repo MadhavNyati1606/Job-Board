@@ -28,8 +28,8 @@ const JobCard = ({job}) => {
                   )}
                
                   <div className="info">
-                    <p> By - {item.by} </p>
-                    <p>{formatTimestamp(item.time)}</p>
+                    <p> By - {item.by} : {formatTimestamp(item.time)} </p>
+                  
                   </div>
                   </div>
             ))}
